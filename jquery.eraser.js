@@ -96,7 +96,7 @@
             canvas.height = height;
             canvas.style.width = realWidth.toString() + "px";
             canvas.style.height = realHeight.toString() + "px";
-            ctx.drawImage(that, 0, 0);
+            ctx.drawImage(that, 0, 0, width, height);
             $this.remove();
 
             // prepare context for drawing operations
